@@ -1,0 +1,172 @@
+
+* {
+    font-family: "roboto", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+body {
+    background-image: url(./imagens/Digi-Locker1.jpg);
+    background-size: cover;
+}
+
+.logo_encriptador {
+    margin-left: 65px;
+    padding-top: 40px;
+    width: 2%;
+    
+}
+
+.text-area {
+    border: none;
+    background: #0A3871;
+    border-radius: 15px 10px;
+    margin-top: 70px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensagem {
+    background: #0A3871;
+    /*background-image: url(./imagens/boneco.png);
+    background-repeat: no-repeat; */
+    text-align: center;
+    border: none;
+    border-radius: 24px;
+    color: #ffffff;
+    margin-left: 160px;
+    margin-top: 70px;
+    padding-left: 20px;
+   
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.botao-descriptar, .botao-encriptar, .botao-copiar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+}
+
+.botao-encriptar{
+    width: 328px;
+}
+
+.botao-descriptar {
+    width: 328px;
+    margin-left: 30px;
+}
+
+.botao-copiar {
+    display: flex;
+    align-items: center;
+    display:block;
+    margin-left: 170px;
+    width: 336px;
+   
+}
+
+.bi_exclamation-circle-fill {
+    width: 16px;
+    height: 16px;
+
+}
+
+
+.aviso {
+    color: #ffffff;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+
+
+.rodape {
+    text-align: center;
+    color: white;
+}
+
+
+
+@media (min-width: 480px) and (max-width: 800px) {
+    * {
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    main {
+        display: block;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .logo_encriptador {
+        margin-left: 20px;
+        padding-top: 30px;
+        width: 5%;
+    }
+
+    .text-area {
+        margin-top: 50px;
+        width: 100%;
+        height: 150px;
+        font-size: 20px;
+    }
+
+    .mensagem {
+        margin-left: 0;
+        margin-top: 40px;
+        width: 100%;
+        height: 200px;
+        padding-left: 10px;
+        background-size: contain;
+    }
+
+    .botoes {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .botao-encriptar, .botao-descriptar, .botao-copiar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .botao-descriptar {
+        margin-left: 0;
+    }
+
+    .botao-copiar {
+        margin-left: 0;
+    }
+}
+    
+   
+
