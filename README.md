@@ -2,7 +2,7 @@ Decodificador de Texto
 
 Este projeto é um exercício de lógica do curso da Alura em parceria com a Oracle. A aplicação criptografa e descriptografa textos usando um método de criptografia específico.
 
-🌐 Acesse o Projeto Você pode visualizar o projeto em: https://github.com/Allinny-Soares/challenge-encriptador
+🌐 Acesse o Projeto Você pode visualizar o projeto em: https://encriptador-de-texto-gray.vercel.app/
 
 Funcionalidades Criptografia: Converte letras específicas em códigos. Descriptografia: Reverte o texto criptografado para o formato original. Copiar: Copia para a área de transferência, botão para copiar o texto criptografado/descriptografado.
 
